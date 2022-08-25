@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(161, 171, 190)
+    /* background: url('src/video/video.mp4'); */
+}
+
+form{
+    margin: 5% 10%;
+    width: 40%;
+    padding: 45px;
+    border-radius: 25px;
+    background-color: rgb(139, 164, 179);
+ 
+}
+
+.form-group{
+    padding: 3%;
+}
+
+h1{
+    margin: 9rem 0 0 12rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }

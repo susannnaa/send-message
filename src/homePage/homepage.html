@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="'getUsers'">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+    <script src="src/homePage/getUsers.js"></script>
+</head>
+
+<body ng-controller='Ctrl'>
+    <nav class="navbar bg-light">
+        <ul class="nav navbar-nav">
+            <li class="nav-item" ng-repeat="user in $ctrl.users">
+                <p>{{user.name}}</p>
+                <p>{{user.lastName}}</p>
+                <img ng-src="{{user.imageUrl}}" alt="{{user.name}}" />
+            </li>
+
+        </ul>
+    </nav>
+</body>
+
+</html>
