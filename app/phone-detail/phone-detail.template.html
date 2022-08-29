@@ -1,0 +1,34 @@
+
+<nav class="navbar bg-light">
+    <ul class="nav navbar-nav">
+
+        <li class="nav-item" ng-repeat="user in $ctrl.users">
+            <img ng-src="{{user.imageUrl}}" alt="{{user.name}}" width="70" height="70" />
+            <button type="submit" ng-click='send(user)' style="background-color: transparent; border:none" >
+                <a>{{user.name}} {{' '}}{{user.lastName}}</a>
+            </button>
+        </li>
+
+    </ul>
+    
+    </div>
+   
+
+    
+</nav>
+<div send-message></div>
+<div class="send-message"></div>
+
+<div class='card messageBlock' ng-show="show" ng-hide="hide">
+    <div id="header">
+        <h2>{{user.name}} {{' '}}{{user.lastName}}</h2><button ng-click="remove()"> <img
+                src="https://cdn-icons-png.flaticon.com/512/390/390914.png" alt="" width="25px" height="25px"> </button>
+    </div>
+    <div id="middle">
+        <h4 ng-repeat="result in results">{{result}}</h4>
+    </div>
+    <div id="end"> 
+        <input type='text' ng-model='message'> 
+        <button type='submit' class='btn btn-secondary' ng-click='sendMessage()'>Send</button>
+    </div>
+</div>

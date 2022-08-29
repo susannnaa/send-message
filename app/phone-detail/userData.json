@@ -1,0 +1,58 @@
+[{
+    "name" : "Alis",
+    "lastName" : "Merton",
+    "age" : 23,
+    "imageUrl": "https://cdn-icons-png.flaticon.com/512/206/206881.png",
+    "value": false
+},
+{
+    "name": "Alex",
+    "lastName" : "Vilson",
+    "age" : 21,
+    "imageUrl": "https://cdn-icons-png.flaticon.com/512/219/219983.png",
+    "value": false
+},
+
+{
+    "name" : "Lianna",
+    "lastName" : "Rilta",
+    "age" : 20,
+    "imageUrl": "https://cdn-icons-png.flaticon.com/512/146/146025.png",
+    "value": false
+},
+{
+    "name" : "Alis",
+    "lastName" : "Merton",
+    "age" : 23,
+    "imageUrl": "https://cdn-icons-png.flaticon.com/512/206/206881.png",
+    "value": false
+
+},
+{
+    "name": "Alex",
+    "lastName" : "Vilson",
+    "age" : 21,
+    "imageUrl": "https://cdn-icons-png.flaticon.com/512/219/219983.png",
+    "value": false
+},
+{
+    "name" : "Lianna",
+    "lastName" : "Rilta",
+    "age" : 20,
+    "imageUrl": "https://cdn-icons-png.flaticon.com/512/146/146025.png",
+    "value": false
+},
+{
+    "name": "Alex",
+    "lastName" : "Vilson",
+    "age" : 21,
+    "imageUrl": "https://cdn-icons-png.flaticon.com/512/219/219983.png",
+    "value": false
+},
+{
+    "name" : "Lianna",
+    "lastName" : "Rilta",
+    "age" : 20,
+    "imageUrl": "https://cdn-icons-png.flaticon.com/512/146/146025.png",
+    "value": false
+}]

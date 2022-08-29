@@ -1,0 +1,13 @@
+<div class='card messageBlock2' ng-hide="hide">
+    <div id="header">
+        <h2>{{user.name}} {{' '}}{{user.lastName}}</h2><button ng-click="remove()"> <img
+                src="https://cdn-icons-png.flaticon.com/512/390/390914.png" alt="" width="25px" height="25px"> </button>
+    </div>
+    <div id="middle">
+        <h4 ng-repeat="result in results">{{result}}</h4>
+    </div>
+    <div id="end"> 
+        <input type='text' ng-model='message'> 
+        <button type='submit' class='btn btn-secondary' ng-click='sendMessage()'>Send</button>
+    </div>
+</div>

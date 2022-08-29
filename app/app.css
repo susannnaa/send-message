@@ -1,0 +1,112 @@
+h1 {
+  border-bottom: 1px solid gray;
+}
+
+form{
+  margin: 8% 10%;
+  width: 40%;
+  padding: 45px;
+  border-radius: 25px;
+  background-color: rgb(87, 87, 87);
+  opacity: 90%;
+}
+
+.form-group{
+  padding: 3%;
+}
+
+h1{
+  margin: 9rem 0 0 12rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: 70%;
+}
+.navbar-nav{
+  background-color: rgb(41, 41, 41);
+  opacity: 80%;
+  border-radius: 15px;
+  float: right;
+}
+
+ul{
+  margin-right: 0;
+  text-align: center;
+  height: 80%; /* Full height */
+  overflow: auto; 
+  float: right;
+}
+.navbar-nav > li{   
+ float: none;
+ padding: 20px;
+ /* background-color: rgb(139, 164, 179); */
+ border: 1px solid #5a5959;
+}
+a img{
+  display: none;
+  margin: 0;
+  opacity: 100%;
+}
+.nav li a{
+  display: inline;
+  font-family: 'Playfair Display', serif;
+  color: rgb(99, 114, 136);
+  font-size: 30px;
+}
+
+.messageBlock{
+  position: fixed;
+  bottom: 2rem;
+  opacity: 90%;
+  right: 25%;
+  background-color: rgb(124, 135, 145);
+  width: 400px;
+  height: 400px;
+  border-radius: 15px 15px 0 0;
+}
+#header{
+  padding: 5%;  
+ 
+}
+
+#header h2{
+  margin: auto;
+  display: inline;
+  padding-right: 40%;
+}
+
+#end{
+  bottom: 2rem;
+  display: flex;
+  position: fixed;
+
+}
+
+#end input{
+  padding: 0 30%;
+  border-radius: 5px;
+}
+#middle h4{
+  background-color: rgb(247, 247, 247);
+  border-radius: 2rem;
+  padding: 9px;
+}
+
+.messageBlock2{
+  position: fixed;
+  bottom: 2rem;
+  opacity: 90%;
+  right: 50%;
+  background-color: rgb(124, 135, 145);
+  width: 400px;
+  height: 400px;
+  border-radius: 15px 15px 0 0;
+}
